@@ -65,7 +65,7 @@ export const ENDPOINTS: EndPointType[] = [
     url: "https://pokeapi.co/api/v2/pokeathlon-stat/",
   },
   { name: "pokedex", url: "https://pokeapi.co/api/v2/pokedex/" },
-  { name: "pokemon", url: "https://pokeapi.co/api/v2/pokemon/" },
+  { name: "pokemon", url: "https://pokeapi.co/api/v2/pokemon/", linkTo: 'pokemons' },
   { name: "pokemon-color", url: "https://pokeapi.co/api/v2/pokemon-color/" },
   { name: "pokemon-form", url: "https://pokeapi.co/api/v2/pokemon-form/" },
   {
