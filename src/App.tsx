@@ -1,6 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./views/home";
+import Pokemons from "./views/pokemons";
 import Regions from "./views/regions";
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path:"/pokemons",
+      element: <Pokemons />
     },
     {
       path: "/regions",
