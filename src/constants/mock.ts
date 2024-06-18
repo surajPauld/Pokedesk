@@ -77,7 +77,11 @@ export const ENDPOINTS: EndPointType[] = [
     name: "pokemon-species",
     url: "https://pokeapi.co/api/v2/pokemon-species/",
   },
-  { name: "region", url: "https://pokeapi.co/api/v2/region/" },
+  {
+    name: "region",
+    url: "https://pokeapi.co/api/v2/region/",
+    linkTo: "regions",
+  },
   { name: "stat", url: "https://pokeapi.co/api/v2/stat/" },
   {
     name: "super-contest-effect",

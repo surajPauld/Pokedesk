@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+}
+
+li {
+  padding: 5px 10px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 5px;
+  font-size: 24px;
+  border: solid 1px black;
+  border-radius: 5px;
+  color: black;
+}
+
+li:hover {
+  scale: 1.2;
+}
+
+a {
+  color: black !important;
+}
